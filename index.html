@@ -71,7 +71,7 @@
       __audio.src = "http://music.163.com/song/media/outer/url?id=28828078.mp3";
       __audio.loop = true;
       __audio.volume = 0.6;
-      window.onload = function () {
+      window.onclick = function () {
         __audio.play();
       
       };
@@ -99,7 +99,7 @@
       ocas.height = canvas.height = window.innerHeight;
       let bigbooms = [];
 
-      window.onclick = function () {
+      window.onload = function () {
         initAnimate();
 
         const labels = document.getElementById("labels");
